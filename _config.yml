@@ -1,63 +1,15 @@
-url: https://thomasread04.github.io
-baseurl:
-
 # Site settings
 title: Thomas Read
+description: Jekyll Theme Minimal Resume
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: https://github.com/Thomasread04/thomasread04.github.io
+
+# User settings
+username: Thomas Read
+user_description: I'm a full time high school student with a passion for learning about computers, carpentry, and self sufficient living.
 email: thomasread04@gmail.com
-description: "All About Me."
+# twitter_username: lorem_ipsum
+# github_username:  lorem_ipsum
+# gplus_username:  lorem_ipsum
 
-
-# Team names, titles and social links
-people:
-- name: Thomas Read
-  pic: 1
-  position: Student
-  social:
-    - title: Instagram
-      url: # https://www.instagram.com/thomas_can_read/
-    - title: facebook
-      url: # https://www.facebook.com/thomas.read.3591/
-
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
-
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
-
-# Build settings
-markdown: kramdown
-permalink: pretty
+exclude: ['package.json', 'src' , 'node_modules']
